@@ -15,3 +15,11 @@ pip install playwright
 
 ### Templates
 - [Scraping rows from a table (more than one page)](https://github.com/izzad2413/web_scraping_templates/blob/main/playwright/playwrigh_multi-tb.py)
+
+## Web Scraping Test Sites
+- [Books to Scrape](https://books.toscrape.com/)
+
+### Acknowledgement
+- [John Watson Rooney](https://www.youtube.com/@JohnWatsonRooney)
+- [Amin Boutarfi](https://www.youtube.com/@AminBoutarfi)
+- [Pythonology](https://www.youtube.com/@Pythonology)
