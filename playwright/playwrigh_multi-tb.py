@@ -32,6 +32,7 @@ def main():
             # begin looping
             for tr_element in tr_elements:
                 
+                # Example Scenario
                 # Extract data_1: extract text data
                 data_1_element = tr_element.query_selector(data_1_path)
                 data_1 = data_1_element.inner_text() if data_1_element else '' 
@@ -44,7 +45,7 @@ def main():
                 data_3_element = tr_element.query_selector(data_3_path)
                 data_3 = data_3_element.inner_text() if data_3_element else '' 
 
-                # Split hotel_info into lines
+                # Split data_3 into lines
                 lines = [line.strip() for line in data_3.split('\n')]
 
                 # Extract hotel_name, hotel_address, and hotel_contact
